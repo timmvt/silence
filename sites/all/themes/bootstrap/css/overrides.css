@@ -1,0 +1,588 @@
+body { 
+	position:relative;
+	color: white;
+	background-color: black;
+}
+
+p {
+	margin: 0px 0px 0px;	
+}
+
+a {
+	color: #C08741;
+}
+
+#page-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 44em;
+}
+
+.navbar {
+	width: auto;
+	max-width: 100%;
+}
+
+.container > .navbar-header, .container > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.navbar.container { 
+	margin-top:20px;
+	background: white;
+	max-width: 100%;
+}
+
+.navbar img {
+	width: auto;
+}
+
+
+.page-header {
+	visibility: hidden;
+	display: none;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 0px;
+}
+
+.tagline {
+	color: #c08741;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+/*
+#front_film_poster {
+	margin-left: 50px;	
+}
+
+.movie-poster {
+	width: auto;
+	text-align: center;
+	margin-left: 230px;
+}
+
+.movie-trailer {
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+*/
+#front-quotes-container {
+	margin-top: 10px;
+	width: auto;
+   	text-align: center;
+   	width: 100%;
+   	margin-bottom: 20px;
+}
+
+.front-quotes {
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
+	vertical-align:top;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+/*LAURELS*//*LAURELS*//*LAURELS*//*LAURELS*//*LAURELS*/
+.container-wreath-block {
+   width: auto;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.front-top-wreath {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.front-top-wreath img {
+	width: auto;	
+}
+
+#container-wreath-bottom {
+	width: auto;
+   	text-align: center;
+   	width: 100%;
+   	margin-bottom: 20px;
+}
+
+.jumbotron {
+   	padding-right: 60px;
+   	padding-left: 60px;
+   	font-size: 21px;
+   	border-radius: 6px;
+	padding: 30px;
+	background-color: inherit;
+	height: 60px;
+}
+
+.pane-2 {
+	width: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*
+.moscone-container {
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.moscone-content {
+    width: 50.957%;
+}
+
+.node-premiere img {
+	text-align: center;
+}
+
+.node-premiere h2 {
+	font-size: 30px;
+}
+
+.views-field-title a{
+	font-size: 15px;
+	padding-right: 25px;
+}
+
+.field-content {
+	margin-bottom: 15px;	
+}
+
+.views-field-field-image {
+	margin-bottom: 15px;
+}
+
+.views-screenings-row {
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+}
+*/
+.screening-title {
+	color: #c08741;	
+}
+/*
+.paragraph-style {
+	color: #FFF;
+   	font-family: "ArialMT","Arial",sans-serif;
+   	font-size: auto;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 20px;
+	opacity: 1;
+	padding-bottom: 0px 0px 0px 0px;	
+	text-align: justify;
+	text-decoration: none;
+	text-indent: 0px;
+  	text-transform: none;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.paragraph_style_3 {
+	color: #c08741;
+}
+*/
+
+/* FOOTER REGION*/
+.footer { 
+	padding-top: 35px;
+	padding-bottom: 36px;
+	font-size: 10px;
+	font-color: white;	
+}
+
+.brooklyn-girl-footer {
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+/*PRESS GRID*//*PRESS GRID*//*PRESS GRID*//*PRESS GRID*//*PRESS GRID*//*PRESS GRID*//*PRESS GRID*/
+.press-grid-view {
+	border: 5px;
+	border-color: #FFF;
+	background-color: #ADD8E6;
+	display: inline;
+	width: 800px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*/
+div.views-fluid-grid {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+ul.views-fluid-grid-items-left li.views-fluid-grid-item {
+    /*text-align: left;*/
+    height: 100px;
+}
+
+
+.screening-title {
+	background-color: #c08741;
+	background-size: 50px;
+	margin: -2px -2px 5px 0px;
+}
+
+.screenings-container a {
+	text-align: center;
+	display: block;
+    margin: 20px 0px 0px 10px;
+}
+
+.views-field-title a {
+  	color: #FFFFFF;
+  	text-transform: uppercase;
+  	text-align: center;
+	display: block;
+    margin: 20px 0px 0px 10px;
+}
+
+.views-row {
+	background-color: #c0c0c0;	
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*
+.views-field-title {
+	height: 70px;
+}
+
+.views-field-body {
+	vertical-align: middle;
+	margin: 10px 5px 1px 5px;
+}
+
+.pane-press-quotes h2 {
+	display: none;
+}
+
+.pane-press a {
+	text-align: center;
+	display: block;
+    margin: 20px 0px 0px 10px;
+}
+
+.press-quotes li {
+	height: 30px;
+}
+
+.list-inline {
+    padding-left: 0px;
+    list-style: outside none none;
+    text-align: center;
+    vertical-align: top;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+*/
+
+/* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA */
+@media screen and (min-width: 481px) and (orientation: landscape) {
+
+}
+
+@media screen and (min-width:992px) { 
+	.navbar.container { 
+		max-width:940px;
+	}
+}
+
+@media screen and (min-width:1200px) { 
+	.navbar.container { 
+		max-width:1140px;
+	}
+}
+
+@media screen and (min-width:768px) { 
+	.navbar .logo { 
+		
+		margin-right:0;
+		width: auto;
+	}
+	.navbar .img {
+		width: 50%;	
+	}
+}
+
+@media screen and (min-width:992px) {
+	.navbar #block-search-form { 
+		float:right;
+	}
+}
+
+@media screen and (min-width:768px) { 
+	ul.secondary { 
+		float:right;
+	}
+}
+
+/*PHONE PORTRAIT*//*PHONE PORTRAIT*//*PHONE PORTRAIT*//*PHONE PORTRAIT*//*PHONE PORTRAIT*//*PHONE PORTRAIT*/
+@media only screen and (max-device-width: 480px) {
+	.navbar {
+		max-width: 100%;
+	}		
+	
+	.navbar img {
+		width: 90%;				
+	}
+
+	body {
+		font-size: 11px;	
+	}
+		
+	#container-wreath-bottom {
+	   	width: 90%;
+   		margin-left: auto;
+   		margin-right: auto;
+	}		
+
+	.screening-title {
+		color: #c08741;	
+		margin-top: 130px;
+	}
+
+	.container-wreath-block {
+   		margin-top: 60px;
+	   	margin-bottom: 120px;
+   		margin-left: auto;
+	   	margin-right: auto;
+	}
+	
+	.tagline {
+		margin-top: 170px;
+	}
+
+	.pane-screenings h2, .pane-press-quotes h2 {
+		margin-top: 170px;
+		text-align: center;
+	}
+
+	#fsts-trailer {
+		max-width: 100px;	
+		width: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.movie-trailer {
+		width: 90%;
+		display: block;	
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.navbar-fixed-top {
+   	top: 0px;
+    	border-width: 0px 0px 1px;
+    	max-width: 100%;
+	}	
+	
+	iframe {
+      width: 1px;
+      min-width: 100%;
+      width: 250px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      float: left;
+   }
+   
+	#chase-blurb {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.movie-poster {
+		width: auto;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.brooklyn-girl-footer {
+    	font-size: 10px;
+	   	white-space: nowrap;
+	}
+
+	.views-row {
+	    height: 155px;
+	}
+
+	.vertical-laurels {
+		display: none;
+	}
+	
+	.field-items img {
+		max-width: 100%;
+		height: auto;	
+	}
+
+	.credits-line {
+		margin-top: 150px;
+		margin-right: 10px;
+		font-size: 9px;
+	}
+
+	.screenings-container a {
+		margin-top: 20px;
+	}
+
+	/*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*/
+	div.views-fluid-grid {
+		margin-top: 130px;
+	}
+
+}
+
+
+/* PHONE LANDSCAPE *//* PHONE LANDSCAPE *//* PHONE LANDSCAPE *//* PHONE LANDSCAPE *//* PHONE LANDSCAPE */
+@media (max-width: 660px) {
+	body {
+		font-size: 11px;	
+	}
+	
+	.screening-title {
+		color: #c08741;	
+		margin-top: 130px;
+	}
+		
+	.vertical-laurels {
+		display: none;
+	}
+	.navbar {
+		max-width: 100%;
+	}		
+	
+	.navbar img {
+		width: 90%;				
+	}
+		
+	#container-wreath-bottom {
+	   	width: 90%;
+   		margin-left: auto;
+   		margin-right: auto;
+	}		
+
+	.container-wreath-block {
+   		margin-top: 60px;
+	   	margin-bottom: 120px;
+   		margin-left: auto;
+	   	margin-right: auto;
+	}
+	
+	.tagline {
+		margin-top: 120px;
+	}
+
+	.pane-screenings h2, .pane-press h2 {
+		margin-top: 120px;
+		text-align: center;
+	}
+
+	.screening-title {
+		color: #c08741;	
+		margin-top: 130px;
+	}
+
+	#fsts-trailer {
+		max-width: 100px;	
+		width: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.movie-trailer {
+		width: 90%;
+		display: block;	
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.navbar-fixed-top {
+   	top: 0px;
+    	border-width: 0px 0px 1px;
+    	max-width: 100%;
+	}	
+	
+	iframe {
+      width: 1px;
+      min-width: 100%;
+      width: 250px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      float: left;
+   }
+   
+	#chase-blurb {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.movie-poster {
+		width: auto;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.brooklyn-girl-footer {
+    	font-size: 10px;
+	   	white-space: nowrap;
+	}
+
+	.views-row {
+	    height: 155px;
+	}
+
+	.vertical-laurels {
+		display: none;
+	}
+	
+	.field-items img {
+		max-width: 100%;
+		height: auto;	
+	}
+
+	.credits-line {
+		margin-top: 150px;
+		margin-right: 10px;
+		font-size: 9px;
+	}
+
+	.screenings-container a {
+		margin-top: 0px;
+	}
+
+	/*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*//*VIEWS FLUID GRID*/
+	div.views-fluid-grid {
+		margin-top: 130px;
+	}
+
+}
+*/
